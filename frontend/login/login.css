@@ -1,0 +1,138 @@
+/* Estilo geral da página */ 
+body {
+    background-color: rgb(56, 85, 122);
+    color: rgb(232, 239, 240);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Barra de navegação */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #291010;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #1b1b1b;
+    border-radius: 5px;
+}
+
+/* Contêiner para a foto */
+.foto-container {
+    display: flex;
+    justify-content: center; /* Mantém a foto centralizada */
+    margin-top: 60px; /* Distância do topo ajustada */
+}
+
+/* Estilo para a foto */
+.foto {
+    width: 160px;  /* Aumenta o tamanho da foto para melhor visualização */
+    height: 275px;
+    border-radius: 5%; /* Torna a imagem redonda */
+    object-fit: cover; /* A imagem cobrirá o círculo sem distorcer */
+    border: 3px solid #250e0e; /* Borda ao redor da foto */
+    box-shadow: 0 0 15px rgba(5, 3, 3, 0.8); /* Sombra ao redor da foto */
+}
+
+/* Contêiner para o nome e cargo */
+.nome-container {
+    margin-top: 50px; /* Distância do topo */
+    padding-left: 38px; /* Ajusta a posição do nome à esquerda */
+}
+
+/* Estilo para o nome */
+.nome {
+    font-size: 250%; /* Tamanho do nome */
+    font-weight: bold; /* Deixa o nome em negrito */
+    color: white; /* Cor do nome */
+}
+
+/* Estilo para o cargo (Desenvolvedor Front-end) */
+.cargo {
+    font-size: 200%; /* Tamanho do cargo */
+    font-weight: normal; /* Não negrito */
+    color: #ccc; /* Cor mais suave para o cargo */
+    margin-top: 10px; /* Espaçamento entre o nome e o cargo */
+}
+
+/* Experiência Profissional */
+.experiencia-container {
+    margin: 40px 20px; /* Espaçamento externo para não ficar colado nas bordas */
+    padding: 20px;
+    background-color: rgba(61, 54, 54, 0.9); /* Fundo sutil para destacar */
+    border-radius: 8px;
+}
+
+.experiencia-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+    color: rgb(241, 228, 228);
+}
+
+.experiencia-item {
+    margin-bottom: 20px; /* Espaço entre cada experiência */
+    padding-left: 20px; /* Afastar o texto da borda esquerda */
+}
+
+.cargo-experiencia {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(240, 239, 239);
+}
+
+.empresa {
+    font-size: 16px;
+    color: #bdbcbc;
+}
+
+.descricao {
+    margin-left: 20px; /* Ajusta o espaçamento dos itens da lista */
+    font-size: 16px;
+}
+
+.descricao li {
+    margin-bottom: 11px; /* Espaçamento entre os itens da lista */
+}
+
+/* Formação Acadêmica */
+.formacao-container {
+    margin: 20px 20px 20px 20px; /* A margem superior foi ajustada para 20px */
+    padding: 20px;
+    background-color: rgb(46, 34, 34); /* Fundo sutil para destacar */
+    border-radius: 15px;
+}
+
+.formacao-title {
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: left;
+    color: rgb(241, 241, 241);
+}
+
+.formacao-item {
+    margin-bottom: 15px;
+}
+
+
+
